@@ -4,6 +4,7 @@ devoloper new code chek in
 its new original code
 =======
 adding new code
+new conflit codededed
 
 conflicted
 
