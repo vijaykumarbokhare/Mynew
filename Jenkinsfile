@@ -4,4 +4,5 @@ node {
     
     echo "Hello World"
     echo "new pipeline script"
+    echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
 }
