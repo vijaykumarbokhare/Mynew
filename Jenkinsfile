@@ -1,6 +1,6 @@
 node {
     echo "${env.JENKINS_URL}"
-    echo "${env.USERNAME}"
+    echo "${env.USER}"
     
     echo "Hello World"
     echo "new pipeline script"
