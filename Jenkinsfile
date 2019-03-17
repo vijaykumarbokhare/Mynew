@@ -17,6 +17,11 @@ pipeline {
                 echo " Running on the environment ${env.BUILD_ID} on ${env.JENKINS_URL}"
             }
         }
+        
+        stage('Deploy'){
+            steps {
+                sh 'cd /home/ec2-user'
+                sh 'cp index.html /home/ec2-user/apache-tomcat-7.0.93/webapps'
     }
     
 }
