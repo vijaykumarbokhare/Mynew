@@ -24,6 +24,7 @@ pipeline {
                 sh 'pwd'
                 sh 'cp /home/ec2-user/index.html /home/ec2-user/apache-tomcat-7.0.93/webapps/ROOT'
                 sh '/home/ec2-user/apache-tomcat-7.0.93/bin/shutdown.sh'
+                sh '/home/ec2-user/apache-tomcat-7.0.93/bin/stratup.sh'
                   }
        }
     }
