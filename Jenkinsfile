@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo " Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+                echo " Running on the environment ${env.BUILD_ID} on ${env.JENKINS_URL}"
             }
         }
     }
