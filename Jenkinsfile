@@ -21,7 +21,7 @@ pipeline {
         stage('Deploy'){
             steps {
                 sh 'cd /home/ec2-user'
-                sh 'cp index.html /home/ec2-user/apache-tomcat-7.0.93/webapps'
+                sh 'cp 'index.html' /home/ec2-user/apache-tomcat-7.0.93/webapps'
                   }
        }
     }
