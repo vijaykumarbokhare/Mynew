@@ -22,7 +22,7 @@ pipeline {
             steps {
                 sh 'cd /home/ec2-user'
                 sh 'pwd'
-                sh 'cp index.html /home/ec2-user/apache-tomcat-7.0.93/webapps'
+                sh 'cp /home/ec2-user/index.html /home/ec2-user/apache-tomcat-7.0.93/webapps'
                   }
        }
     }
